@@ -1,13 +1,14 @@
 {
-  "name": "@umm/accessor-utility-core",
+  "name": "@umm/accessor_utility_core",
   "version": "1.0.1",
   "description": "Accessor Utility",
-  "homepage": "https://github.com/monry/accessor-utility-core",
+  "homepage": "https://github.com/umm-projects/accessor_utility_core",
   "bugs": {
-    "url": "https://github.com/monry/accessor-utility-core/issues"
+    "url": "https://github.com/umm-projects/accessor_utility_core/issues"
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
+    "postuninstall": "node scripts/postuninstall.js",
     "build:test": "tar -tf $(npm pack -s) && $(npm bin)/rimraf $_"
   },
   "author": {
@@ -18,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:monry/accessor-utility-core"
+    "url": "git@github.com:umm-projects/accessor_utility_core"
   },
   "files": [
     "Assets",
