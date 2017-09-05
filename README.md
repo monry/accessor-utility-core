@@ -12,7 +12,7 @@
 # Install
 
 ```shell
-$ npm install @umm/accessor-utility-core
+$ npm install github:umm-projects/accessor_utility_core.git
 ```
 
 # Usage
