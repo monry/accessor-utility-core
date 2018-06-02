@@ -61,7 +61,7 @@ namespace AccessorUtility {
         /// インスタンスのディクショナリのディクショナリ
         /// </summary>
         /// <remarks>本当は ConditionalWeakTable を使いたいのだが、 .NET 4.0 以降の機能なので無理。</remarks>
-        internal static TReferenceMap instanceMapMap = new TReferenceMap();
+        public static TReferenceMap instanceMapMap = new TReferenceMap();
 
     }
 
