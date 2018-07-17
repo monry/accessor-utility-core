@@ -12,7 +12,7 @@
 # Install
 
 ```shell
-$ npm install github:umm-projects/accessor_utility_core.git
+yarn add "umm/accessor_utility_core#^1.0.0"
 ```
 
 # Usage

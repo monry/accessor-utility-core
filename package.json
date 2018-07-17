@@ -2,9 +2,9 @@
   "name": "@umm/accessor_utility_core",
   "version": "1.2.1",
   "description": "Accessor Utility",
-  "homepage": "https://github.com/umm-projects/accessor_utility_core",
+  "homepage": "https://github.com/umm/accessor_utility_core",
   "bugs": {
-    "url": "https://github.com/umm-projects/accessor_utility_core/issues"
+    "url": "https://github.com/umm/accessor_utility_core/issues"
   },
   "scripts": {
     "umm:init": "umm-init",
@@ -22,14 +22,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:umm-projects/accessor_utility_core"
+    "url": "git@github.com:umm/accessor_utility_core"
   },
   "files": [
     "Assets",
     "scripts"
   ],
   "dependencies": {
-    "@umm/scripts": "umm-projects/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {}
 }
